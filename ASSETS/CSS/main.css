@@ -1,0 +1,136 @@
+@font-face{
+	font-family:alegreya; src: url("../FONTS/Alegreya-Regular.ttf");
+}
+
+@font-face{
+	font-family:Barrio; src: url("../FONTS/Barrio-Regular.ttf");
+}
+
+.cotenedor_textura {
+	  display: flex;
+	  justify-content: center;
+}
+
+.textura{
+	position: fixed;
+    mix-blend-mode: multiply;
+	opacity: 0.7;
+	height: 100%;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.container{
+	padding: 5%;
+}
+
+.logo_adelita{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40vw;
+	padding-bottom: 3%;
+}
+
+.titulo_menu{
+	font-family: charcuterie-engraved,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #000000;
+	font-size: 4.5vh;
+	text-align: center;
+	margin-bottom: -1vh;
+	margin-top: -1vh;
+}
+
+.elemento_menu{
+	align-items: center;
+	justify-content: center;
+}
+
+.titulo_comida{
+	font-family: Barrio, Bahiana;
+	color: #E62579;
+	text-align: center;
+	font-size: 4vh;
+	margin-top: 0.8vh;
+	margin-bottom: -1.5vh;
+	transform: rotate(-1deg);
+	
+}
+
+.titulo_comida_combos{
+	font-family: Barrio, Bahiana;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 4vh;
+	margin-top: 0.4vh;
+	margin-bottom: 0.8vh;
+	transform: rotate(1deg);
+	
+}
+
+.paragraph {
+	font-family: alegreya;
+	text-align: justify;
+	font-size: 2.3vh;
+	line-height: 4vh;
+	margin-bottom: 2.5vh;
+}
+
+.precio{
+	font-family: Barrio, Bahiana;
+	color: #000000;
+	text-align: center;
+	font-size: 6vh;
+	margin-top: -2vh;
+	margin-bottom: 0.5vh;
+	transform: rotate(-2deg);
+}
+
+.precio::first-letter {
+	font-size: 3.5vh;
+}
+
+.precio_porciones{
+	font-family: Barrio, Bahiana;
+	color: #000000;
+	text-align: center;
+	font-size: 1.5vh;
+	margin-top: -1.5vh;
+	margin-bottom: 1vh;
+	margin-right: -1vh;
+	transform: rotate(-60deg);
+}
+
+
+.precio_doble {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.estrella{
+	height: 0.7em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.estrella_precio_doble{
+	height: 4vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+
+}
+
+.linea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80vw;
+}
+
+

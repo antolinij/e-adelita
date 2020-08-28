@@ -3,27 +3,124 @@
 }
 
 @font-face{
+	font-family:alegreya-bold; src: url("../FONTS/Alegreya-Bold.ttf");
+}
+
+@font-face{
+	font-family:alegreya-extrabold; src: url("../FONTS/Alegreya-ExtraBold.ttf");
+}
+
+
+@font-face{
 	font-family:Barrio; src: url("../FONTS/Barrio-Regular.ttf");
 }
 
+body {
+	background-color: #9FD7CA;
+}
+
+.botonera_index {
+	display: block;
+	justify-content: center;
+	text-align: center;
+	padding-top: 3vh;
+	padding-bottom: 1vh;
+	}
+
+.boton_comidas_index {
+	height: 15vh;
+	width: 30vh;
+	font-family: Barrio, Bahiana;
+	font-size: 5.5vh;
+	text-decoration: none;
+	text-align: center;
+	transform: rotate(-3deg);
+	display: inline-block;
+	vertical-align: baseline;
+	padding-top: 9vh;
+	background-color: #C52A76;
+	color: #FFFFFF;
+	clip-path: polygon(5% 20%, 90% 15%, 95% 75%, 7% 80%);
+}
+
+.boton_tragos_index {
+	height: 15vh;
+	width: 30vh;
+	font-family: Barrio, Bahiana;
+	font-size: 5.5vh;
+	text-decoration: none;
+	text-align: center;
+	transform: rotate(-3deg);
+	display: inline-block;
+	vertical-align: baseline;
+	padding-top: 9vh;
+	background-color: #4AAC33;
+	color: #FFFFFF;
+	clip-path: polygon(8% 20%, 95% 15%, 95% 80%, 7% 85%);
+}
+
+.botonera{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 1vh;
+}
+
+.contenedor_boton{}
+
+.boton_comidas {
+	height: 7vh;
+	width: 20vh;
+	font-family: Barrio, Bahiana;
+	font-size: 4vh;
+	text-decoration: none;
+	text-align: center;
+	transform: rotate(-3deg);
+	display: inline-block;
+	vertical-align: baseline;
+	padding-top: 2vh;
+	background-color: #C52A76;
+	color: #FFFFFF;
+	clip-path: polygon(5% 20%, 90% 15%, 95% 75%, 7% 80%);
+}
+
+.boton_tragos {
+	height: 7vh;
+	width: 20vh;
+	font-family: Barrio, Bahiana;
+	font-size: 4vh;
+	text-decoration: none;
+	text-align: center;
+	transform: rotate(-3deg);
+	display: inline-block;
+	vertical-align: baseline;
+	padding-top: 2vh;
+	background-color: #4AAC33;
+	color: #FFFFFF;
+	clip-path: polygon(8% 20%, 95% 15%, 95% 80%, 7% 85%);
+}
+
 .cotenedor_textura {
-	  display: flex;
-	  justify-content: center;
+	display: flex;
+	justify-content: center;
+
 }
 
 .textura{
 	position: fixed;
     mix-blend-mode: multiply;
-	opacity: 0.7;
+	opacity: 0.5;
 	height: 100%;
 	width: auto;
 	display: flex;
 	justify-content: center;
-	
+	pointer-events: none;
+	z-index: 1000;
 }
 
 
 .container{
+	background-color: #9FD7CA;
 	padding: 5%;
 }
 
@@ -31,7 +128,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40vw;
+	width: 50vw;
 	padding-bottom: 3%;
 }
 
@@ -62,6 +159,16 @@
 	
 }
 
+.titulo_tragos{
+	font-family: Barrio, Bahiana;
+	color: #319B18;
+	text-align: center;
+	font-size: 4vh;
+	margin-top: 0.8vh;
+	margin-bottom: -1.5vh;
+	transform: rotate(-1deg);	
+}
+
 .titulo_comida_combos{
 	font-family: Barrio, Bahiana;
 	color: #FFFFFF;
@@ -70,7 +177,6 @@
 	margin-top: 0.4vh;
 	margin-bottom: 0.8vh;
 	transform: rotate(1deg);
-	
 }
 
 .paragraph {
@@ -79,6 +185,20 @@
 	font-size: 2.3vh;
 	line-height: 4vh;
 	margin-bottom: 2.5vh;
+}
+
+.paragraph_tragos {
+	font-family: alegreya;
+	text-align: center;
+	font-size: 2.3vh;
+	line-height: 4vh;
+	margin-bottom: 2.5vh;
+}
+
+.paragraph_tragos::first-line {
+	font-family: alegreya-extrabold;
+	font-size: 2.7vh;
+	text-align: center;
 }
 
 .precio{

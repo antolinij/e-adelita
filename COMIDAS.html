@@ -6,6 +6,7 @@
 <link href="./ASSETS/CSS/main.css" rel="stylesheet">
 <link rel="stylesheet" href="./ASSETS/CSS/normalize.css">
 <link rel="stylesheet" href="https://use.typekit.net/rgq8iti.css">
+<script src="./ASSETS/SCRIPTS/JS/main.js"></script>
 
 </head>
 
@@ -19,10 +20,27 @@
 				</a>
 			<div class="botonera">
 				<a href="COMIDAS.html" class="boton_comidas"> COMIDAS </a>
+				<div class="dropdown">
+  					<img src="ASSETS/IMAGES/boton_menu-02.png" onclick="myFunction()" class="dropbtn" alt="boton_dropdown">
+  						<div id="myDropdown" class="dropdown-content">
+							<a href="#ENTRADAS">ENTRADAS</a>
+							<a href="#COMBOS">COMBOS</a>
+							<a href="#PRINCIPALES">PRINCIPALES</a>
+							<a href="#HAMBURGUESAS">HAMBURGUESAS</a>
+							<a href="#MOLCAJETES">MOLCAJETES</a>
+							<a href="#ENCHILADAS">ENCHILADAS</a>
+							<a href="#ENSALADAS">ENSALADAS</a>
+							<a href="#TACOS">LOS&nbsp;TACOS</a>
+							<a href="#QUESADILLAS">QUESADILLAS</a>
+							<a href="#BURRITOS">BURRITOS</a>
+							<a href="#POSTRES">POSTRES</a>
+							<a href="#SALSAS">SALSAS</a>
+						</div>
+				</div>
 				<a href="TRAGOS.html" class="boton_tragos"> TRAGOS </a>
 			</div>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="ENTRADAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">ENTRADAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -145,7 +163,7 @@
 			<p class="precio">$490</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-			<div class="titulo_menu">
+			<div class="titulo_menu" id="COMBOS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">COMBOS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -180,7 +198,7 @@ de berenjenas.</p>
 			<p class="precio">$600</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>		
-			<div class="titulo_menu">
+			<div class="titulo_menu" id="PRINCIPALES">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">PRINCIPALES<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -202,7 +220,7 @@ de berenjenas.</p>
 			<p class="precio">$770</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="HAMBURGUESAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">HAMBURGUESAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -254,7 +272,7 @@ de berenjenas.</p>
 			<p class="precio">$480</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="MOLCAJETES">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">MOLCAJETES<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -282,7 +300,7 @@ de berenjenas.</p>
 			<p class="precio">$1300</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="ENCHILADAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">ENCHILADAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -310,7 +328,7 @@ de berenjenas.</p>
 			<p class="precio">$420</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="ENSALADAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">ENSALADAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -338,7 +356,7 @@ de berenjenas.</p>
 			<p class="precio">$470</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="TACOS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">LOS TACOS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -390,7 +408,7 @@ de berenjenas.</p>
 			<p class="precio">$240</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="QUESADILLAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">QUESADILLAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -430,7 +448,7 @@ de berenjenas.</p>
 			<p class="precio">$240</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="BURRITOS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">BURRITOS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -476,7 +494,7 @@ de berenjenas.</p>
 			<p class="precio">$370</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>			
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="POSTRES">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">POSTRES<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -498,7 +516,7 @@ de berenjenas.</p>
 			<p class="precio">$300</p>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-		  <div class="titulo_menu">
+		  <div class="titulo_menu" id="SALSAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">SALSAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">

@@ -19,6 +19,13 @@ body {
 	background-color: #9FD7CA;
 }
 
+
+.container{
+	height: 100%;
+	background-color: #9FD7CA;
+	padding: 5%;
+	}
+
 .botonera_index {
 	display: block;
 	justify-content: center;
@@ -59,14 +66,68 @@ body {
 	clip-path: polygon(8% 20%, 95% 15%, 95% 80%, 7% 85%);
 }
 
+
+	
 .botonera{
+	height: 10vh;
+	width: 100%;
+	background-color: #9FD7CA;
 	display: flex;
 	justify-content: center;
 	text-align: center;
 	padding-bottom: 1vh;
+	z-index: 900;
 }
 
-.contenedor_boton{}
+/* Dropdown Button */
+.dropbtn {
+	height: 5vh;
+  padding: 1vh;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #F7DE18;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+	left: 50%;
+    transform: translateX(-50%);
+	padding-left: 3vw;
+	padding-right: 3vw; 
+  text-decoration: none;
+  position: absolute;
+  background-color: #f1f1f1;
+	  box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+	padding: 1vh;
+  text-decoration: none;
+  display: block;
+	text-align: center;
+	font-family: Barrio, Bahiana;
+	font-size: 4vh;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 .boton_comidas {
 	height: 7vh;
@@ -116,12 +177,6 @@ body {
 	justify-content: center;
 	pointer-events: none;
 	z-index: 1000;
-}
-
-
-.container{
-	background-color: #9FD7CA;
-	padding: 5%;
 }
 
 .logo_adelita{

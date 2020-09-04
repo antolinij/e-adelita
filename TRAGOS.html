@@ -6,7 +6,8 @@
 <link href="./ASSETS/CSS/main.css" rel="stylesheet">
 <link rel="stylesheet" href="./ASSETS/CSS/normalize.css">
 <link rel="stylesheet" href="https://use.typekit.net/rgq8iti.css">
-
+<script src="./ASSETS/SCRIPTS/JS/main.js"></script>
+	
 </head>
 
 <body>
@@ -17,12 +18,24 @@
 			<a href="index.html"> 
 		<img src="ASSETS/IMAGES/LOGO_ADELITA-01.png" class="logo_adelita" alt="logo">
 				</a>
-			<div class="botonera">
+				<div class="botonera">
 				<a href="COMIDAS.html" class="boton_comidas"> COMIDAS </a>
+				<div class="dropdown">
+  					<img src="ASSETS/IMAGES/boton_menu-02.png" onclick="myFunction()" class="dropbtn" alt="boton_dropdown">
+  						<div id="myDropdown" class="dropdown-content">
+							<a href="#COCKTAILS">COCKTAILS</a>
+							<a href="#APERITIVOS">APERITIVOS</a>
+							<a href="#CHELAS">LAS&nbsp;CHELAS</a>
+							<a href="#VINOS">LOS&nbsp;VINOS</a>
+							<a href="#DESTILADOS">DESTILADOS</a>
+							<a href="#JARRAS">JARRAS</a>
+							<a href="#SINALCOHOL">SIN&nbsp;ALCOHOL</a>
+						</div>
+				</div>
 				<a href="TRAGOS.html" class="boton_tragos"> TRAGOS </a>
 			</div>
 		<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
-	<div class="titulo_menu">
+	<div class="titulo_menu" id="COCKTAILS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">COCKTAILS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -75,7 +88,7 @@
 			<p class="paragraph_tragos">DAIQUIRI ORIGINAL....$260<br>Ron, hielo, almíbar simple, limón.</p>
 			<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-	<div class="titulo_menu">
+	<div class="titulo_menu" id="APERITIVOS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">APERITIVOS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -89,7 +102,7 @@
 			<p class="paragraph_tragos">CINZANO LIMA LIMÓN....$240<br>Cinzano bianco, gaseosa, lima limón, rodaja de limón.</p>
 			<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-	<div class="titulo_menu">
+	<div class="titulo_menu" id="CHELAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">LAS CHELAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -127,7 +140,7 @@
 			<p class="paragraph_tragos">KUNE....$400</p>
 			<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-	<div class="titulo_menu">
+	<div class="titulo_menu" id="VINOS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">LOS VINOS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -136,7 +149,7 @@
 			<p class="paragraph_tragos">LAS PERDICES.....$350<br>Tinto o blanco 350 cc. / *precio por copón</p>
 			<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
-	<div class="titulo_menu">
+	<div class="titulo_menu" id="DESTILADOS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">DESTILADOS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -214,7 +227,7 @@
 			<img src="ASSETS/IMAGES/LINEA-01.png" class="linea" alt="linea">
 	  </div>
 	</div>
-	<div class="titulo_menu">
+	<div class="titulo_menu" id="JARRAS">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">JARRAS<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
@@ -243,7 +256,7 @@
 	  </div>
 	
 </div>
-		<div class="titulo_menu">
+		<div class="titulo_menu" id="SINALCOHOL">
 			<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">SIN ALCOHOL<img src="ASSETS/IMAGES/ESTRELLA-01.png" class="estrella" alt="estrella">
 			</div>
 	<div class="elemento_menu">
